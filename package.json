@@ -18,5 +18,14 @@
   "license": "ISC",
   "dependencies": {
     "q": "^1.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunofaria11/ctt-reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nunofaria11/ctt-reader/issues"
+  },
+  "homepage": "https://github.com/nunofaria11/ctt-reader#readme"
 }

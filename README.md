@@ -2,17 +2,22 @@
 Conversor de ficheiros de códigos postais (fornecidos pelos CTT) para JSON.
 
 ## Funções
+Exemplo de utilização como módulo:
 ```
-/**
- * Reads and parses a file to JSON format (splits it by ';').
- * @param {String} rowFormat An array of strings corresponding to the properties to read from each row (order matters).
- * @param {String} filepath The path to the data source file.
- */
-parseToJson(rowFormat, filePath);
+const CttReader = require('ctt-reader');
 
-// ex.
-parseToJson(['DD', 'DESIG'], './data/concelhos.txt');
+parseToJson(['DD', 'DESIG'], './data/concelhos.txt').then(
+    function (concelhos) {...},
+    function (err) {...},
+);
 ```
+
+Funções específicas:
+- `parseDistritos('./data/distritos.txt')`
+- `parseConcelhos('./data/concelhos.txt')`
+- `parseTodosCp('./data/todos_cp.txt')`
+
+### Funções já com formato impl
 
 ## Linha de comandos
 ```
