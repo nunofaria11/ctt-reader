@@ -1,0 +1,22 @@
+{
+  "name": "ctt-reader",
+  "version": "1.0.0",
+  "description": "Leitor e parser de ficheiros CTT para objetos JSON.",
+  "main": "ctt-reader.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "ctt",
+    "codigo",
+    "postal",
+    "portugal",
+    "json",
+    "parser"
+  ],
+  "author": "nfaria",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
