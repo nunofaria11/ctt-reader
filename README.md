@@ -6,7 +6,7 @@ Exemplo de utilização como módulo:
 ```
 const CttReader = require('ctt-reader');
 
-parseToJson(['DD', 'DESIG'], './data/concelhos.txt').then(
+CttReader.parseToJson(['DD', 'DESIG'], './data/concelhos.txt').then(
     function (concelhos) {...},
     function (err) {...},
 );
