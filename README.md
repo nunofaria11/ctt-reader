@@ -17,8 +17,6 @@ Funções específicas:
 - `parseConcelhos('./data/concelhos.txt')`
 - `parseTodosCp('./data/todos_cp.txt')`
 
-### Funções já com formato impl
-
 ## Linha de comandos
 ```
 $ node ctt-reader -d data/distritos.txt
